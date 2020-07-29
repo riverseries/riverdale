@@ -59,3 +59,14 @@ p b {
     color: #15a7de;
 }
 
+.tabla11{
+    display: inline;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.tabla11 thead tr{
+    background-color:#009985 ;
+}
+.tabla11 tr{
+    background-color:#212121;
+}
