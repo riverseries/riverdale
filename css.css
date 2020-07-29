@@ -1,8 +1,10 @@
-
+@font-face{
+     font-family: letra;
+     src: url(letra.ttf)}
 body{
     background-color:black;
-    color: aliceblue;
     height: 100%;
+    color: aliceblue;
 }
 
 .cabecera{
@@ -17,18 +19,39 @@ body{
 
 }
 .contenido{
-    margin-left: 300px;
+    margin-left: 275px;
     width: 700px;
-    background-color: black;
+    background-color:black;
     height: 2000px;
 }
 .serie {
     padding-top: 90px;
     text-align: center;
+
+
 }
 
 .serie img{
     height: 400px;
 }
 
+.serie h1{
+font-family: letra;
+color:#15a7de;
+letter-spacing: 3px;
+}
+
+.serie h3{
+    text-align: initial;
+    margin-left: 50px;
+    font-family: Monospace;
+    font-size: x-large;
+    color: #b2f5fc;
+}
+
+.texto{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Monospace;
+}
 
